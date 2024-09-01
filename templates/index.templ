@@ -1,0 +1,20 @@
+package templates
+
+templ Index() {
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GOTH Stack Example</title>
+		<link rel="stylesheet" href="/static/output.css" />
+		<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+	</head>
+	<body class="bg-gray-100 p-8">
+		<h1 class="text-3xl font-bold mb-4 text-blue-600">Welcome to the GOTH Stack!</h1>
+		<button hx-post="/api/greet" hx-swap="outerHTML" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+			Click me for a greeting
+		</button>
+	</body>
+	</html>
+}
