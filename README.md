@@ -1,4 +1,4 @@
-# GOTH Stack 🐈‍⬛🐈‍
+# GOTH Stack 🐈‍⬛🖤
 
 ## Overview
 
