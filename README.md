@@ -1,14 +1,14 @@
-# GOTH Stack Template
+# GOTH Stack 🐈‍⬛🐈‍
 
 ## Overview
 
 This project is a template for the GOTH stack, which combines:
 
 - **Go**: A statically typed, compiled language known for its simplicity and efficiency.
-- **Echo**: A high performance, minimalist Go web framework.
-- **templ**: An HTML templating language for Go that helps in creating reusable UI components.
-- **HTMX**: A lightweight JavaScript library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML.
+  - **Echo**: A high performance, minimalist Go web framework.
+  - **templ**: An HTML templating language for Go that helps in creating reusable UI components.
 - **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **HTMX**: A lightweight JavaScript library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML.
 
 ## Features
 
@@ -79,15 +79,6 @@ This project is a template for the GOTH stack, which combines:
 - `static/`: Static assets including CSS files
 - `tailwind.config.js`: Tailwind CSS configuration
 - `package.json`: Node.js project configuration and scripts
-
-## Potential Use Cases
-
-1. **Rapid Prototyping**: Quickly build and iterate on web applications with Echo's powerful backend and HTMX's dynamic frontend.
-2. **Single Page Applications (SPAs)**: Create SPAs with smooth, AJAX-powered interactions without heavy JavaScript frameworks.
-3. **RESTful APIs**: Leverage Echo's routing and middleware capabilities to build robust API services.
-4. **Content Management Systems (CMS)**: Build custom CMS with Go's performance, Echo's simplicity, and HTMX's interactivity.
-5. **Real-time Applications**: Use Echo's WebSocket support alongside HTMX for real-time features.
-6. **Microservices Frontend**: Use as a template for building frontends for microservices architectures, with Echo handling backend communication.
 
 ## Contributing
 
